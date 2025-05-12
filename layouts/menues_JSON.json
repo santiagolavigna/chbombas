@@ -8,6 +8,8 @@
 
     {"name": "Marcas", "link":"?p=categorie|categorieList", "icon":"glyphicon-indent-left"},
 
+    {"name": "Clasificaciones", "link":"?p=tipos|tiposList", "icon":"glyphicon-tag"},
+
     {"name": "Productos", "link":"?p=products|productsList", "icon":"glyphicon-th-large"}
 
 ]}
