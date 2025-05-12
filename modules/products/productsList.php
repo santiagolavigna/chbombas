@@ -5,7 +5,7 @@
 // Checkin What level user has permission to view this page
  page_require_level(1);
 
-$all_categorias = producto_categoria();
+$all_productos = producto_categoria();
 ?>
 
 <div class="panel panel-default">
@@ -18,7 +18,7 @@ $all_categorias = producto_categoria();
     </div>
 
     <div class="panel-body">
-        <?=hcTable("productos",$all_categorias,"id::2px|nombre_foto:Foto|codigo|nombre_categoria:Marca|descripcion|fecha_agregado:Fecha registro:2px")?>
+        <?=hcTable("productos",$all_productos,"id::2px|nombre_foto:Foto|codigo|nombre_categoria:Marca|descripcion|tipo:clasificacion|fecha_agregado:Fecha registro:2px")?>
     </div>
 
     

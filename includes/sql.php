@@ -99,6 +99,16 @@ function find_all($table) {
 }
 
 
+function producto_categoria() {
+  global $db;
+
+    return find_by_sql("SELECT productos.id, productos.descripcion, IFNULL(media.file_name,'noimage.jpg') as nombre_foto ,productos.id_categorias as cat, productos.codigo,productos.nombre, productos.precio_compra,productos.precio_venta, productos.stock,productos.fecha_agregado, categorias.nombre as nombre_categoria, categorias.descripcion as proveedor, tipo.nombre as tipo "
+            . "FROM `productos` inner join `categorias` on productos.id_categorias = categorias.id "
+            . "left join `media` on productos.id_media = media.id inner join `tipo` on productos.id_tipo = tipo.id",TRUE);
+  
+}
+
+
 function getBombas() {
    global $db;
 
