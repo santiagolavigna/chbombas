@@ -48,9 +48,15 @@
                       <?php $cod1 = validate_index($us,'id_media') ?>
                       <?= hcSelect("id_media", find_all('media'),"id","file_name",$cod1)?>                 
                     </div>
+
+                    <div class="form-group">
+                      <label for="user-level">Clasificacion</label>
+                      <?php $cod2 = validate_index($us,'id_tipo') ?>
+                      <?= hcSelect("id_tipo", find_all('tipo'),"id","nombre",$cod2)?>                 
+                    </div>
                 
                 
-                               <?=hcSimpleInput("fecha_agregado",$us,"fg|lab|date-now|readonly")?>
+                     <?=hcSimpleInput("fecha_agregado",$us,"fg|lab|date-now|readonly")?>
             </div>
 
             <div class="form-group clearfix">

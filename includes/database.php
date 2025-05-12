@@ -44,7 +44,6 @@ public function db_disconnect()
 /*--------------------------------------------------------------*/
 public function query($sql)
    {
-
       if (trim($sql != "")) {
           $this->query_id = $this->con->query($sql);
       }

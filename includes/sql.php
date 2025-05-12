@@ -373,11 +373,12 @@ function insertUpdateBBDD($TABLE,$DATA){
               $q=substr($q,0,-2);
               $q.=' WHERE id="'.rj($DATA['id']).'";';
         }
+
         $isOK=$db->query($q);
         Utils::log(print_r($q,true).'/n');
         
         if($isOK){
-            $session->msg("s","Regristro "+ $action +" con exito");
+            $session->msg("s","Regristro " . $action . " con exito");
         }
         
         return $isOK;
