@@ -23,7 +23,6 @@ require_once(LIB_PATH_INC.'session.php');
 require_once(LIB_PATH_INC.'upload.php');
 require_once(LIB_PATH_INC.'database.php');
 require_once(LIB_PATH_INC.'sql.php');
-require_once(LIB_PATH_INC.'tablasAfip.php');
 require_once(LIB_PATH_INC.'Utils.php');
 require_once(LIB_PATH_INC.'HTMLConstructor.php');
 
