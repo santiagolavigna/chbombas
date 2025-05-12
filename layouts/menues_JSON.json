@@ -1,0 +1,13 @@
+{    
+"coment":"Poner comentarios aca",   
+     
+"menues":[
+    {"name": "Panel de control", "link":"?p=panel|controlPanel", "icon":"glyphicon-home"},
+    
+     {"name": "Fotos", "link":"?p=media|mediaList", "icon":"glyphicon-picture"},
+
+    {"name": "Marcas", "link":"?p=categorie|categorieList", "icon":"glyphicon-indent-left"},
+
+    {"name": "Productos", "link":"?p=products|productsList", "icon":"glyphicon-th-large"}
+
+]}

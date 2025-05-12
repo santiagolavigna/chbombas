@@ -1,0 +1,15 @@
+{    
+"coment":"Poner comentarios aca",   
+     
+"menues":[
+    {"name": "Panel de control", "link":"?p=panel|controlPanel", "icon":"glyphicon-home"},
+    
+    {"name": "Clientes", "link":"?p=clients|clientsList", "icon":"glyphicon-user"},
+
+    {"name": "Facturas", "link":"?p=facturas|facturasList", "icon":"glyphicon-list-alt"},
+    
+    {"name": "Ventas", "link":"?p=sales|salesList", "icon":"glyphicon glyphicon-list"},
+    
+    {"name": "Egresos", "link":"?p=egresos|egresosList", "icon":"glyphicon-menu-right"}
+
+]}

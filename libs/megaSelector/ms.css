@@ -1,0 +1,16 @@
+.megaSelector{
+	position:absolute; 
+	width:85%;
+	z-index:1;
+}
+.megaSelectorLi:hover{
+	background-color: #AAA;
+	/*border-radius: 5px;*/
+	cursor: pointer;
+}
+.megaSelectorHiden{
+	display: none;
+}
+.megaSelectionArrow{
+	background-color: #FFF;
+}
